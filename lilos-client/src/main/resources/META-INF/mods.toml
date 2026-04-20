@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/lilos/lilosclient/issues"
+
+[[mods]]
+modId="lilosclient"
+version="1.0.0"
+displayName="LILOS CLIENT"
+authors="Lilos"
+description='''
+Modern Forge 1.16.5 client with custom ClickGUI, HUD, animations and more!
+
+Features:
+- Custom ClickGUI with modern design
+- Animated HUD with watermark and FPS counter
+- Module system with Fly, ESP, KillAura, Speed, AutoClicker
+- Custom animation library with easing functions
+- Screen replacements for main menu and pause menu
+'''
+logoFile="logo.png"
+credits="Made with love by Lilos"
+
+[[dependencies.lilosclient]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.lilosclient]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.lilosclient]]
+    modId="mixin"
+    mandatory=true
+    versionRange="[0.8,)"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.lilos.client.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "lilosclient.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinTitleScreen",
+    "MixinPauseScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
