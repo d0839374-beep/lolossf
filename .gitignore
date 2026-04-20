@@ -3,35 +3,26 @@
 .gradle/
 build/
 dist/
-
-# Dependencies
-libs/
-
-# IDE
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
+*.jar
+*.war
+*.class
 
 # Environment
 .env
 .env.local
 *.env.*
 
+# Logs and temp files
+*.log
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # OS
 .DS_Store
 Thumbs.db
-
-# Compiled files
-*.class
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
 ```
